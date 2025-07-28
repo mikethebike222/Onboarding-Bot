@@ -16,8 +16,7 @@ For Backend Server run the following commands
 2. source venv/bin/activate
 3. pip install -r requirements.txt
 4. python manage.py createsuperuser
-5. python manage.py migrate         
-6. python manage.py runserver 8000  
+5. python manage.py runserver 8000  
 
 For viewing the DB go the port specified in the terminal when you do runserver and do /admin after
 For me this is http://127.0.0.1:8000/admin
