@@ -1,6 +1,8 @@
-I assume you have npm installed already
+I assume you have npm installed already,
 
-First add a .env file inside the backend folder and add, OPENAI_API_KEY={your key}
+First clone the repo
+
+Then add a .env file inside the backend folder and add, OPENAI_API_KEY={your key}
 
 For running the frontend do the following, 
 1. rm -rf node_modules package-lock.json
