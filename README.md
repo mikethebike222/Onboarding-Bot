@@ -1,6 +1,6 @@
 I assume you have npm installed already
 
-Also update th
+First add a .env file inside the backend folder and add, OPENAI_API_KEY={your key}
 
 For running the frontend do the following, 
 1. rm -rf node_modules package-lock.json
@@ -25,7 +25,7 @@ Client will run on localhost:5173 (Your React Port) and will connect to
 WebSocket on ws://localhost:8000/ws/chat/ for making calls to the server
 
 I Used the following,
-React + TypeScript for application Design
-Django/Python for Backend/Server Logic
+React + TypeScript for application Design.
+Django/Python for Backend/Server Logic.
 Default SQLite DataBase from Django for storing client session data
 
